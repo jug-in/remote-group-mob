@@ -8,10 +8,10 @@ Entwickelt ein FizzBuzz für Mathematiker.
 
 Es soll von 1 bis zu einem konfigurierbaren Maximalwert gezählt werden, dabei sollen folgende Ausgaben auf der Console erfolgen:
 * Primzahlen (2,3,5,7...)
-* Anagramme (1331, 123454321, 424)
+* Palindrome (1331, 123454321, 424)
 * Größe des Bereichs zwischen Ausgaben.
 
-Entgegen einem klassischen FizzBuzz, das jeder schon duzende Male in Brainfuck und anderen Sprachen geschrieben hat, sollen bei FizzMath die Ausgaben wie folgt aussehen:
+Anders als bei einem klassischen FizzBuzz, das jeder schon dutzende Male in Brainfuck und anderen Sprachen geschrieben hat, sollen bei FizzMath die Ausgaben wie folgt aussehen:
 2
 3
 (1)
@@ -22,7 +22,7 @@ Entgegen einem klassischen FizzBuzz, das jeder schon duzende Male in Brainfuck u
 11
 ...
 
-Jede Primzahl aus ausgegeben werden, jede Zahl die ein Anagramm darstellt soll ausgegeben werden, und folgenden Ausgaben nicht direkt aufeinandern, soll in Klammern die Anzahl Ziffern stehen, die aus rein mathematischer Sicht "stink langweilig" sind - also wie viele Zahlen zwischen zwei Ausgaben weder Primzahlen noch Anagramme sind.
+Jede Primzahl aus ausgegeben werden, jede Zahl die ein Anagramm darstellt soll ausgegeben werden, und folgenden Ausgaben nicht direkt aufeinandern, soll in Klammern die Anzahl Ziffern stehen, die aus rein mathematischer Sicht "stink langweilig" sind - also wie viele Zahlen zwischen zwei Ausgaben weder Primzahlen noch Palindrome sind.
 
 ## Lösungansatz
 
